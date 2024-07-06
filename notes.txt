@@ -1,0 +1,4 @@
+<!--
+<img src="images/search.svg" alt="Search" />
+Search image by Akveo: https://iconscout.com/contributors/eva-icons -->
+

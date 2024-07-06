@@ -10,18 +10,28 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 	</head>
 	
 	<body>
-		<div class="container">
-			<h1>Recipe Finder</h1>
-			<form>
-				<input type="text" id="search" placeholder="Enter Ingredient">
-				<button type="button" id="submit" class="btn">Search</button>
-			</form>
-			<div id="results"></div>
-		</div>
+		<header>
+			<h2>Recipe Finder</h2>
+			<img src="images/icons8-chef-80.png"Search" />
+<!--Image credit:<a target="_blank" href="https://icons8.com/icon/opqmOsw6adbY/chef-cooking">Chef</a> --><!--icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
 
+		</header>
+		<section class="container">
+<!--- <div id="loading"></div> -->
+			<div class="search">
+				<input id="txtSearch" type="text" placeholder="Seach Favorite" autofocus />
+				<button class="btn">Find</button>
+			</div>
+			<div id="recipe-container"></div>
+		</section>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
+ 
