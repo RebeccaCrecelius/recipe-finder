@@ -45,7 +45,7 @@ header img {
      justify-content: center;
      align-items: center;
      height: var(--search-height);
-     gap: 10px;
+     gap: 12px;
      box-shadow: 0px 2px 8px 0px var(--border-color);
 }
 
@@ -58,13 +58,12 @@ header img {
      border-bottom: 1px solid transparent;
      outline: none;
      transition: all 200ms ease-in-out;
-     width: 60%;
+     width: 100%;
 }
 
 .search input[type="text"]:focus {
-     border-left-color: transparent;
-     border-bottom-color: var(--bordercolor);
-     width: 61%;
+     border-color: var(--dark-color);
+     outline: none;
 }
 
 .btn {
@@ -73,12 +72,12 @@ header img {
      border-radius: 2px;
      user-select: none;
      font-size: 1rem;
-     border: 1px solid blue;
+     border: 1px solid gray;
      cursor: pointer;
 }
 
 .btn:hover {
-     background: blue;
+     background: var(--dark-color);
      border-color: var(--dark-color);
      color: var(--light-color);
 
